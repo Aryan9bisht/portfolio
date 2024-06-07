@@ -80,7 +80,7 @@ const CardSlider = () => {
       <Slider {...settings}>
         {cards.map((card, index) => (
           <Link to={card.link} style={{textDecoration:'none'}}>
-          <Card key={index} sx={{ margin: '25px', padding: '20px', borderRadius: '10px', background: '#494980', color: 'whitesmoke',width:'18vw',height:'35vh',textDecoration:'none' }}>
+          <Card key={index} sx={{ margin: '25px', padding: '20px', borderRadius: '10px', background: '#494980', color: 'whitesmoke',width:'18vw',height:'40vh',textDecoration:'none' }}>
             <CardMedia
               component="img"
               height="200"
