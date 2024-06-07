@@ -1,0 +1,11 @@
+/* SliderStyles.css */
+.slick-dots li button:before {
+    color: white; /* Change this to your desired color */
+  font-size:10px;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: blueviolet; /* Change this to your desired active dot color */
+    font-size:10px;
+  }
+  
